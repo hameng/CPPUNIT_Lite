@@ -40,10 +40,10 @@ bool CheckEqual(char* expected, char* actual,std::string &errorMsg)
 {
 	  CheckStringsEqual(expected, actual, errorMsg);
 	  if (errorMsg.size()<1){
-		  return true;
+		  return false;
 	  }
 	  else{
-		  return false;
+		  return true;
 	  }
 }
 
@@ -51,10 +51,10 @@ bool CheckEqual( char* expected, char const* actual,std::string &errorMsg)
 {
 	  CheckStringsEqual(expected, actual, errorMsg);
 	  if (errorMsg.size()<1){
-		  return true;
+		  return false;
 	  }
 	  else{
-		  return false;
+		  return true;
 	  }
 }
 
@@ -62,9 +62,9 @@ bool CheckEqual( char const* expected, char* actual,std::string &errorMsg)
 {
 	  CheckStringsEqual(expected, actual, errorMsg);
 	  if (errorMsg.size()<1){
-		  return true;
+		  return false;
 	  }
 	  else{
-		  return false;
+		  return true;
 	  }
 }
