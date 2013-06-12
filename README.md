@@ -3,7 +3,7 @@ CPPUNIT_Lite
 
 C/C++ Testing Framework
 
-This testing framework is developped based on cppunit_lite.
+This testing framework is developed based on cppunit_lite.
 
 All sourcecode is in the folder "cppunit_lite".
 
