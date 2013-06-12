@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="cppunit_lite">
+      <UniqueIdentifier>{f058976a-dda2-4fbf-afd3-ed0968d9f978}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Tests">
+      <UniqueIdentifier>{99dac8c0-0860-4dd6-bdb2-c499b7f49d91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cppunit_lite\Header Files">
+      <UniqueIdentifier>{bf17d3c4-f411-4750-baa3-999d15004d0f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cppunit_lite\Source Files">
+      <UniqueIdentifier>{cb850aeb-69c5-4955-985b-5fd468f36dec}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="tests\MyTestClass.h">
+      <Filter>Source Files\Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="cppunit_lite\checks.h">
+      <Filter>cppunit_lite\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cppunit_lite\Failure.h">
+      <Filter>cppunit_lite\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cppunit_lite\memStream.h">
+      <Filter>cppunit_lite\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cppunit_lite\Test.h">
+      <Filter>cppunit_lite\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cppunit_lite\TestHarness.h">
+      <Filter>cppunit_lite\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cppunit_lite\TestRegistry.h">
+      <Filter>cppunit_lite\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cppunit_lite\TestResult.h">
+      <Filter>cppunit_lite\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cppunit_lite\TestResultDebugOut.h">
+      <Filter>cppunit_lite\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cppunit_lite\TestResultStdErr.h">
+      <Filter>cppunit_lite\Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tests\check_close.cpp">
+      <Filter>Source Files\Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="tests\check_equal.cpp">
+      <Filter>Source Files\Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="tests\compare.cpp">
+      <Filter>Source Files\Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="tests\double_test.cpp">
+      <Filter>Source Files\Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="tests\fixture_test.cpp">
+      <Filter>Source Files\Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="tests\MyTestClass.cpp">
+      <Filter>Source Files\Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="tests\string_equal.cpp">
+      <Filter>Source Files\Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="tests\throw.cpp">
+      <Filter>Source Files\Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="tests\array.cpp">
+      <Filter>Source Files\Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="cppunit_lite\memStream.cpp">
+      <Filter>cppunit_lite\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cppunit_lite\Test.cpp">
+      <Filter>cppunit_lite\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cppunit_lite\TestRegistry.cpp">
+      <Filter>cppunit_lite\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cppunit_lite\TestResult.cpp">
+      <Filter>cppunit_lite\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cppunit_lite\TestResultDebugOut.cpp">
+      <Filter>cppunit_lite\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cppunit_lite\TestResultStdErr.cpp">
+      <Filter>cppunit_lite\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cppunit_lite\checks.cpp">
+      <Filter>cppunit_lite\Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
